@@ -18,7 +18,7 @@ export default {
     }
   },
   mounted() {
-    this.$store.dispatch('SEND_PERFORMANCE_DATE');
+    this.$store.dispatch('SEND_PERFORMANCE_DATA');
   },
   created() {
     this.$store.dispatch('GET_POSTS');
